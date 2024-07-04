@@ -35,8 +35,17 @@ See also
 </tr>
 {%- endfor -%}
 
-<tbody>
+</tbody>
 </table>
 
+----
+
+
+## References
+
+
+1. U. Fischer and F. Mittelbach. Automated tagging of LATEX documents — what is possible today, in 2023? TUGboat, 44(2):262–266, 2023.
+
+2. F. Mittelbach and U. Fischer. Enhancing LATEX to automatically produce tagged and accessible PDF. TUGboat, ?:?, 2024. 
 
 
