@@ -1,7 +1,9 @@
 ---
 title: LaTeX package tagging status
 ---
-
+<style>
+td.supported {background-color: lightgreen;font-weight:bold;}
+</style>
 
 
 <table style="width:100%">
@@ -18,7 +20,7 @@ title: LaTeX package tagging status
 {%- for p in site.data.packages -%}
 <tr>
 <td><a href="https://ctan.org/pkg/{{p.package}}">{{p.package}}</a></td>
-<td>{{p.status}}</td>
+<td class="{{p.status}}">{{p.status}}</td>
 <td>{{p.comments}}</td>
 <td>
 {%- if p.issue -%}
