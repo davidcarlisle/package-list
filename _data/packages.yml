@@ -143,7 +143,7 @@
 
  - package: mdframed
    status: unsupported
-   comments: Recommended alternative: tcolorbox.
+   comments: "Recommended alternative: tcolorbox."
    issue: 73
 
  - package: microtype
