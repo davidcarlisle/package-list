@@ -10,6 +10,7 @@
  - package: amsthm
    status: currently-unsupported
    issue: 83
+   updated: 2024-07-04
 
  - package: biblatex
    status: supported
@@ -24,6 +25,7 @@
  - package: bigfoot
    status: unknown
    comments: To be supported or not? Can’t remember where I saw this mentioned!
+   updated: 2024-07-04
 
  - package: booktabs
    status: currently-unsupported

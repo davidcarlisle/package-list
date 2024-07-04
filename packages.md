@@ -17,6 +17,7 @@ Click on the column headings to sort the table by the chosen column.
 <th>Status</th>
 <th>Comments</th>
 <th>Issue</th>
+<th>Last updated</th>
 </tr>
 </thead>
 <tbody>
@@ -38,6 +39,7 @@ See also
 {% endfor %}
 {% endif %}
 </td>
+<td{{p.updated}}</td>
 </tr>
 {%- endfor -%}
 
