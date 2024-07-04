@@ -1,0 +1,209 @@
+
+ - package: amsmath
+   status: unknown
+   comments: >
+     See comments in [1, 2], but what does ‘much of’ mean here? See also: github.com/latex3/tagging-project/issues/77
+     Mentioned here, but it seems the issue was fixed:"
+
+   issue: 28
+
+ - package: amsthm
+   status: currently-unsupported
+   issue: 83
+
+ - package: biblatex
+   status: supported
+   comments: Supported according to [2] An old issue appears to be fixed.
+   issue: 18
+
+ - package: biblatex-chicago
+   status: supported
+   comments: An earlier issue appears to have been fixed.
+   issue: 62
+
+ - package: bigfoot
+   status: unknown
+   comments: To be supported or not? Can’t remember where I saw this mentioned!
+
+ - package: booktabs
+   status: currently-unsupported
+   issue: 69
+
+ - package: caption
+   status: currently-unsupported
+   comments: Issue when hyperref and both listoffigures are used.
+   issue: 84
+
+ - package: cleveref
+   status: currently-unsupported
+   issue: 2
+
+ - package: colortbl
+   status: currently-unsupported
+   comments: Looks like the package author may have updated the code.
+   issue: 80
+
+ - package: csquotes
+   status: currently-unsupported
+   comments: Main issue seems to be with blockquote.
+   issue: 3
+
+ - package: doc
+   status: currently-unsupported
+   issue: 44
+
+ - package: enumerate
+   status: currently-unsupported
+   comments: See comments in [1].
+
+ - package: enumitem
+   status: currently-unsupported
+   comments: "See comments in [1]. Also mentioned here:"
+   related-issues:
+   - 4
+   issue: 61
+
+ - package: fancyvrb
+   status: currently-unsupported
+   comments: See comments in [1].
+
+ - package: float
+   status: currently-unsupported
+   comments: "[H] floats are not yet automatically tagged. See comments in [2]."
+
+ - package: footmisc
+   status: supported
+   comments: An old issue has been fixed.
+   issue: 12
+
+ - package: footnote
+   status: unknown
+   comments: To be supported or not?
+
+ - package: geometry
+   status: unknown
+
+ - package: glossaries
+   status: supported
+   comments: An old issue appears to be fixed.
+   issue: 48
+
+ - package: graphicx
+   status: supported
+   comments: >
+     Rather than
+     \includegraphics[whatever]{whatever}
+     one should now write
+     \includegraphics[whatever,alt={This is the alternative text.}]{whatever}
+     The alternative text will be ignored if tagging is not used. See comments in [1]. It seems that draft mode doesn’t work at present.
+     An old issue with height appears to be fixed.
+
+   related-issues:
+   - 64
+   issue: 16
+
+ - package: hhline
+   status: unknown
+   issue: 66
+
+ - package: hyperref
+   status: supported
+   comments: See comments in [2].
+
+ - package: includepdf
+   status: unknown
+   comments: Main issue seems to be fixed but comments indicate that this is a troublesome package.
+   issue: 86
+
+ - package: listings
+   status: currently-unsupported
+   comments: See [1] and also
+   related-issues:
+   - 41
+   issue: 70.
+
+ - package: longtable
+   status: unknown
+   issue: 22
+   comments: Also mentioned here but the issue has been fixed.
+   related-issues:
+   - 38
+
+ - package: luamplib
+   status: supported
+   comments: An old issue has been fixed.
+   issue: 8
+
+ - package: manyfoot
+   status: unknown
+   comments: To be supported or not?
+
+ - package: mathtools
+   status: unknown
+
+ - package: mdframed
+   status: "likely to remain unsupported %) Recommended alternative: tcolorbox."
+   issue: 73
+
+ - package: microtype
+   status: supported
+   comments: Footnote patching doesn’t work but otherwise supported.
+   issue: 67
+
+ - package: natbib
+   status: supported
+   comments: Supported if hyperref is used.
+
+ - package: subcaption
+   status: currently-unsupported
+   comments:  Issue when hyperref and both listoffigures are used.
+   issue: 85
+
+ - package: tabularx
+   status: supported
+   comments: An old issue has been fixed.
+   issue: 42
+
+ - package: tocloft
+   status: currently-unsupported
+   issue: 74
+
+ - package: tcolorbox
+   status: "currently-unsupported Not yet fully supported, but some suggestions here:"
+   issue: 73
+
+ - package: tikz
+   status: currently-unsupported
+   comments: See comments in [2].
+
+ - package: tikz-cd
+   status: currently-unsupported
+   issue: 30
+
+ - package: titlesec
+   status: currently-unsupported
+   issue: 24
+
+ - package: titletoc
+   status: currently-unsupported
+   comments: Mentioned here.
+   issue: 24
+
+ - package: url
+   status: supported
+   comments: An old issue has been fixed.
+   issue: 5
+
+ - package: varwidth
+   status: currently-unsupported
+   issue: 71
+
+ - package: verse
+   status: supported
+   comments: An old issue appears to have been fixed.
+   issue: 49
+
+ - package: wrapfig
+   status: currently-unsupported
+   issue: 40
+   
