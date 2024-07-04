@@ -2,7 +2,7 @@
 title: LaTeX package tagging status
 ---
 <style>
-td.supported {background-color: #AAFFAA;font-weight:bold;}
+td.supported {background-color: #DDFFDD;font-weight:bold;}
 </style>
 <script src="sorttable.js"></script>
 
