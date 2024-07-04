@@ -2,7 +2,7 @@
  - package: amsmath
    status: unknown
    comments: >
-     See comments in [1, 2], but what does ‘much of’ mean here? See also: <https://github.com/latex3/tagging-project/issues/77>
+     See comments in [[1]](#ref1), [[2]](#ref2), but what does ‘much of’ mean here? See also: <https://github.com/latex3/tagging-project/issues/77>
      Mentioned here, but it seems the issue was fixed:"
 
    issue: 28
@@ -54,22 +54,22 @@
 
  - package: enumerate
    status: currently-unsupported
-   comments: See comments in [1].
+   comments: See comments in [[1]](#ref1).
 
  - package: enumitem
    status: currently-unsupported
-   comments: "See comments in [1]. Also mentioned here:"
+   comments: "See comments in [[1]](#ref1). Also mentioned here:"
    related-issues:
    - 4
    issue: 61
 
  - package: fancyvrb
    status: currently-unsupported
-   comments: See comments in [1].
+   comments: See comments in [[1]](#ref1).
 
  - package: float
    status: currently-unsupported
-   comments: "[H] floats are not yet automatically tagged. See comments in [2]."
+   comments: "[H] floats are not yet automatically tagged. See comments in [[2]](#ref2)."
 
  - package: footmisc
    status: supported
@@ -95,7 +95,7 @@
      `\includegraphics[whatever]{whatever}`
      one should now write
      `\includegraphics[whatever,alt={This is the alternative text.}]{whatever}`
-     The alternative text will be ignored if tagging is not used. See comments in [1]. It seems that draft mode doesn’t work at present.
+     The alternative text will be ignored if tagging is not used. See comments in [[1]](#ref1). It seems that draft mode doesn’t work at present.
      An old issue with height appears to be fixed.
 
    related-issues:
@@ -108,7 +108,7 @@
 
  - package: hyperref
    status: supported
-   comments: See comments in [2].
+   comments: See comments in [[2]](#ref2).
 
  - package: includepdf
    status: unknown
@@ -117,7 +117,7 @@
 
  - package: listings
    status: currently-unsupported
-   comments: See [1] and also
+   comments: See [[1]](#ref1) and also
    related-issues:
    - 41
    issue: 70.
@@ -176,7 +176,7 @@
 
  - package: tikz
    status: currently-unsupported
-   comments: See comments in [2].
+   comments: See comments in [[2]](#ref2).
 
  - package: tikz-cd
    status: currently-unsupported
