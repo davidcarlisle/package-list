@@ -2,7 +2,7 @@
 title: LaTeX package tagging status
 ---
 <style>
-td.supported {background-color: lightgreen;font-weight:bold;}
+td.supported {background-color: #AAFFAA;font-weight:bold;}
 </style>
 <script src="sorttable.js"></script>
 
@@ -20,7 +20,7 @@ td.supported {background-color: lightgreen;font-weight:bold;}
 
 {%- for p in site.data.packages -%}
 <tr>
-<td><a href="https://ctan.org/pkg/{{p.package}}">{{p.package}}</a></td>
+<td class="{{p.status}}"><a href="https://ctan.org/pkg/{{p.package}}">{{p.package}}</a></td>
 <td class="{{p.status}}">{{p.status}}</td>
 <td>{{p.comments}}</td>
 <td>
