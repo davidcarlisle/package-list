@@ -7,6 +7,9 @@ td.supported {background-color: #AAFFAA;font-weight:bold;}
 <script src="sorttable.js"></script>
 
 
+
+Click on the column headings to sort the table by the chosen column.
+
 <table class="sortable" style="width:100%">
 <thead>
 <tr>
