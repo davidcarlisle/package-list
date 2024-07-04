@@ -20,7 +20,7 @@ title: LaTeX package tagging status
 <td>{{p.package}}</td>
 <td>{{p.status}}</td>
 <td>{{p.comments}}</td>
-<td>{{p.issue}}</td>
+<td><a href="https://github.com/latex3/tagging-project/issues/{{p.issue}}">#{{p.issue}}</a></td>
 </tr>
 {%- endfor -%}
 <tbody>
