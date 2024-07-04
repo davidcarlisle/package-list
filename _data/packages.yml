@@ -2,7 +2,7 @@
  - package: amsmath
    status: unknown
    comments: >
-     See comments in [1, 2], but what does ‘much of’ mean here? See also: github.com/latex3/tagging-project/issues/77
+     See comments in [1, 2], but what does ‘much of’ mean here? See also: <https://github.com/latex3/tagging-project/issues/77>
      Mentioned here, but it seems the issue was fixed:"
 
    issue: 28
@@ -92,9 +92,9 @@
    status: supported
    comments: >
      Rather than
-     \includegraphics[whatever]{whatever}
+     `\includegraphics[whatever]{whatever}`
      one should now write
-     \includegraphics[whatever,alt={This is the alternative text.}]{whatever}
+     `\includegraphics[whatever,alt={This is the alternative text.}]{whatever}`
      The alternative text will be ignored if tagging is not used. See comments in [1]. It seems that draft mode doesn’t work at present.
      An old issue with height appears to be fixed.
 

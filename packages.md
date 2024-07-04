@@ -25,7 +25,7 @@ Click on the column headings to sort the table by the chosen column.
 <tr>
 <td class="{{p.status}}"><a href="https://ctan.org/pkg/{{p.package}}">{{p.package}}</a></td>
 <td class="{{p.status}}">{{p.status}}</td>
-<td>{{p.comments}}</td>
+<td>{{p.comments | markdownify}}</td>
 <td>
 {%- if p.issue -%}
 <a href="https://github.com/latex3/tagging-project/issues/{{p.issue}}">#{{p.issue}}</a>
