@@ -17,13 +17,20 @@ title: LaTeX package tagging status
 
 {%- for p in site.data.packages -%}
 <tr>
-<td>{{p.package}}</td>
+<td><a href="https://ctan.org/pkg/{{p.package}}">{{p.package}}</a></td>
 <td>{{p.status}}</td>
 <td>{{p.comments}}</td>
 <td>
 {%- if p.issue -%}
 <a href="https://github.com/latex3/tagging-project/issues/{{p.issue}}">#{{p.issue}}</a>
 {%- endif -%}
+{% if p.related-issues %}
+<br/>
+See also
+{% for u in p.related-issues %-}
+<a href="https://github.com/latex3/tagging-project/issues/{{p.issue}}">#{{p.issue}}</a>
+{% endfor %}
+{% endif %}
 </td>
 </tr>
 {%- endfor -%}
