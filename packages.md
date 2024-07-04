@@ -27,8 +27,8 @@ title: LaTeX package tagging status
 {% if p.related-issues %}
 <br/>
 See also
-{% for u in p.related-issues %-}
-<a href="https://github.com/latex3/tagging-project/issues/{{p.issue}}">#{{p.issue}}</a>
+{% for u in p.related-issues %}
+<a href="https://github.com/latex3/tagging-project/issues/{{u.issue}}">#{{u.issue}}</a>
 {% endfor %}
 {% endif %}
 </td>
