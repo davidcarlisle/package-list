@@ -142,7 +142,8 @@
    status: unknown
 
  - package: mdframed
-   status: "likely to remain unsupported %) Recommended alternative: tcolorbox."
+   status: unsupported
+   comments: Recommended alternative: tcolorbox.
    issue: 73
 
  - package: microtype
@@ -169,7 +170,8 @@
    issue: 74
 
  - package: tcolorbox
-   status: "currently-unsupported Not yet fully supported, but some suggestions here:"
+   status: currently-unsupported
+   comments: "Not yet fully supported, but some suggestions here:"
    issue: 73
 
  - package: tikz
