@@ -4,9 +4,10 @@ title: LaTeX package tagging status
 <style>
 td.supported {background-color: lightgreen;font-weight:bold;}
 </style>
+<script src="sorttable.js"></script>
 
 
-<table style="width:100%">
+<table class="sortable" style="width:100%">
 <thead>
 <tr>
 <th>package</th>
