@@ -13,7 +13,7 @@
 
  - package: biblatex
    status: supported
-   comments: Supported according to [2] An old issue appears to be fixed.
+   comments: Supported according to [[2]](#ref2) An old issue appears to be fixed.
    issue: 18
 
  - package: biblatex-chicago

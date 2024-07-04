@@ -13,8 +13,8 @@ Click on the column headings to sort the table by the chosen column.
 <table class="sortable" style="width:100%">
 <thead>
 <tr>
-<th>package</th>
-<th>status</th>
+<th>Package</th>
+<th>Status</th>
 <th>Comments</th>
 <th>Issue</th>
 </tr>
@@ -50,8 +50,8 @@ See also
 ## References
 
 
-1. U. Fischer and F. Mittelbach. Automated tagging of LATEX documents — what is possible today, in 2023? TUGboat, 44(2):262–266, 2023.
+<span id="ref1">1.</span> U. Fischer and F. Mittelbach. Automated tagging of LATEX documents — what is possible today, in 2023? TUGboat, 44(2):262–266, 2023.
 
-2. F. Mittelbach and U. Fischer. Enhancing LATEX to automatically produce tagged and accessible PDF. TUGboat, ?:?, 2024. 
+<span id="ref2">2.</span> F. Mittelbach and U. Fischer. Enhancing LATEX to automatically produce tagged and accessible PDF. TUGboat, ?:?, 2024. 
 
 
