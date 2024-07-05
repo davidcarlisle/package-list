@@ -119,9 +119,8 @@
      The alternative text will be ignored if tagging is not used. See comments in [[1]](#ref1). It seems that draft mode doesn’t work at present.
      An old issue with height appears to be fixed.
 
-   related-issues:
-   - 64
    issue: 16
+   related-issues: [64]
 
  - name: hhline
    type: pkg
@@ -143,17 +142,15 @@
    type: pkg
    status: currently-unsupported
    comments: See [[1]](#ref1) and also
-   related-issues:
-   - 41
    issue: 70.
+   related-issues: [41]
 
  - name: longtable
    type: pkg
    status: unknown
    issue: 22
    comments: Also mentioned here but the issue has been fixed.
-   related-issues:
-   - 38
+   related-issues: [38]
 
  - name: luamplib
    type: pkg
