@@ -6,6 +6,10 @@ td.supported {background-color: #DDFFDD;font-weight:bold;}
 </style>
 <script src="sorttable.js"></script>
 
+{% assign classes = site.data.tagging-status | where: "type", "class" %}
+{% assign pkgs    = site.data.tagging-status | where: "type", "pkg" %}
+
+
 
 ## Packages
 
@@ -25,7 +29,7 @@ Click on the column headings to sort the table by the chosen column.
 </thead>
 <tbody>
 
-{%- for p in site.data.tagging-status | where: "type", "pkg" -%}
+{%- for p in pkgs -%}
 <tr>
 <!-- <td>{{p.type}}</td> -->
 <td class="{{p.status}}"><a href="https://ctan.org/pkg/{{p.name}}">{{p.name}}</a></td>
@@ -69,7 +73,8 @@ Click on the column headings to sort the table by the chosen column.
 </thead>
 <tbody>
 
-{%- for p in site.data.tagging-status | where: "type", "class" -%}
+
+{%- for p in classes -%} 
 <tr>
 <!-- <td>{{p.type}}</td> -->
 <td class="{{p.status}}"><a href="https://ctan.org/pkg/{{p.name}}">{{p.name}}</a></td>
