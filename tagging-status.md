@@ -17,7 +17,7 @@ Click on the column headings to sort the table by the chosen column.
 <th>Name</th>
 <th>Status</th>
 <th>Comments</th>
-<th>Issue</th>
+<th>Relevant issue</th>
 <th>Last updated</th>
 </tr>
 </thead>
