@@ -1,7 +1,7 @@
 
 Click on the column headings to sort the table by the chosen column.
 
-<table class="sortable" style="min-width:100%;width:100%">
+<table class="sortable" style="display:table;width:100%">
 <thead>
 <tr>
 <!-- <th>Type</th>  -->
