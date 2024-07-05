@@ -39,7 +39,7 @@ See also
 {% endfor %}
 {% endif %}
 </td>
-<td{{p.updated}}</td>
+<td>{{p.updated}}</td>
 </tr>
 {%- endfor -%}
 
