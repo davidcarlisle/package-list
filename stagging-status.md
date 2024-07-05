@@ -1,5 +1,5 @@
 ---
-title: LaTeX package tagging status
+title: LaTeX package/class tagging status
 ---
 <style>
 td.supported {background-color: #DDFFDD;font-weight:bold;}
@@ -13,7 +13,8 @@ Click on the column headings to sort the table by the chosen column.
 <table class="sortable" style="width:100%">
 <thead>
 <tr>
-<th>Package</th>
+<th>Type</th>
+<th>Name</th>
 <th>Status</th>
 <th>Comments</th>
 <th>Issue</th>
@@ -22,9 +23,10 @@ Click on the column headings to sort the table by the chosen column.
 </thead>
 <tbody>
 
-{%- for p in site.data.packages -%}
+{%- for p in site.data.tagging-status -%}
 <tr>
-<td class="{{p.status}}"><a href="https://ctan.org/pkg/{{p.package}}">{{p.package}}</a></td>
+<td>{{p.type}}</td>
+<td class="{{p.status}}"><a href="https://ctan.org/pkg/{{p.name}}">{{p.name}}</a></td>
 <td class="{{p.status}}">{{p.status}}</td>
 <td>{{p.comments | markdownify}}</td>
 <td>
