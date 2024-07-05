@@ -25,7 +25,7 @@ Click on the column headings to sort the table by the chosen column.
 </thead>
 <tbody>
 
-{%- for p in site.data.tagging-status | where "type", "pkg" -%}
+{%- for p in site.data.tagging-status | where: "type", "pkg" -%}
 <tr>
 <!-- <td>{{p.type}}</td> -->
 <td class="{{p.status}}"><a href="https://ctan.org/pkg/{{p.name}}">{{p.name}}</a></td>
@@ -69,7 +69,7 @@ Click on the column headings to sort the table by the chosen column.
 </thead>
 <tbody>
 
-{%- for p in site.data.tagging-status | where "type", "class" -%}
+{%- for p in site.data.tagging-status | where: "type", "class" -%}
 <tr>
 <!-- <td>{{p.type}}</td> -->
 <td class="{{p.status}}"><a href="https://ctan.org/pkg/{{p.name}}">{{p.name}}</a></td>
