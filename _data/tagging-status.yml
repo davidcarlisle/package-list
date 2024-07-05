@@ -50,9 +50,9 @@
 
  - name: colortbl
    type: pkg
-   status: currently-unsupported
-   comments: Looks like the package author may have updated the code.
-   issue: 80
+   status: supported
+   comments: errors in combination with longtable
+   issue: 90
 
  - name: csquotes
    type: pkg
@@ -100,11 +100,12 @@
 
  - name: geometry
    type: pkg
-   status: unknown
+   status: supported
+   comments: tagging of rules (showframe, crop marks) untested
 
  - name: glossaries
    type: pkg
-   status: supported
+   status: unknown
    comments: An old issue appears to be fixed.
    issue: 48
 
@@ -142,14 +143,14 @@
    type: pkg
    status: currently-unsupported
    comments: See [[1]](#ref1) and also
-   issue: 70.
+   issue: 70
    related-issues: [41]
 
  - name: longtable
    type: pkg
-   status: unknown
+   status: supported
    issue: 22
-   comments: Also mentioned here but the issue has been fixed.
+   comments: longtables with page breaks works only with luatex
    related-issues: [38]
 
  - name: luamplib
@@ -243,7 +244,7 @@
  - name: verse
    type: pkg
    status: supported
-   comments: An old issue appears to have been fixed.
+   comments: firstaid is required for the fix of issue 49
    issue: 49
 
  - name: wrapfig
@@ -268,3 +269,13 @@
    status: supported
    updated: 2024-07-05
 
+ - name: KOMA-classes
+   type: class
+   status: currently-unsupported
+   related-issues: [88]
+
+ - name: memoir
+   type: class
+   status: currently-unsupported
+   comments: "Some code showing the needed adjustments can be found in the 
+              [bible example](https://github.com/latex3/tagging-project/blob/main/project-examples/ASV/bible.tex)"
