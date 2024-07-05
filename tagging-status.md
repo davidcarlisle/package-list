@@ -7,6 +7,15 @@ td.unsupported {background-color: #D73A4A;font-weight:bold;}
 </style>
 <script src="sorttable.js"></script>
 
+# LaTeX Package Tagging Status
+
+This file shows the status of LaTeX [Packages](#packages) and [Classes](#classes)
+with respect to PDF tagging.
+
+To add or edit the entries, please make a pull request to change the YAML file
+[tagging-status.yml](https://github.com/davidcarlisle/package-list/blob/main/_data/tagging-status.yml).
+
+
 ## Packages
 
 {%- assign packages = site.data.tagging-status | where: "type", "pkg" -%}
