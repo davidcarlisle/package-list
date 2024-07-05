@@ -148,7 +148,7 @@
 
  - name: longtable
    type: pkg
-   status: supported
+   status: partial-support
    issue: 22
    comments: longtables with page breaks works only with luatex
    related-issues: [38]
