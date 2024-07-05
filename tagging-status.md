@@ -34,7 +34,7 @@ Click on the column headings to sort the table by the chosen column.
 <a href="https://github.com/latex3/tagging-project/issues/{{p.issue}}">#{{p.issue}}</a>
 {%- endif -%}
 {% if p.related-issues %}
-<br/>
+<!-- <br/> -->
 See also
 {% for u in p.related-issues %}
 <a href="https://github.com/latex3/tagging-project/issues/{{u}}">#{{u}}</a>
