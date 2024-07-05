@@ -3,7 +3,7 @@ title: LaTeX package/class tagging status
 ---
 <style>
 td.supported {background-color: #DDFFDD;font-weight:bold;}
-td.unsupported {background-color: ##D73A4A;font-weight:bold;}
+td.unsupported {background-color: #D73A4A;font-weight:bold;}
 </style>
 <script src="sorttable.js"></script>
 
