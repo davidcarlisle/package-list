@@ -251,3 +251,20 @@
    status: currently-unsupported
    issue: 40
    
+
+ - name: article
+   type: class
+   status: supported
+   updated: 2024-07-05
+
+
+ - name: report
+   type: class
+   status: supported
+   updated: 2024-07-05
+
+ - name: book
+   type: class
+   status: supported
+   updated: 2024-07-05
+
