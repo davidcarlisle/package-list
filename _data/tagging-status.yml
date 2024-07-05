@@ -30,6 +30,7 @@
    type: package
    status: unknown
    comments: To be supported or not? Can’t remember where I saw this mentioned!
+   tasks: needs tests
    updated: 2024-07-04
 
  - name: booktabs
@@ -98,6 +99,7 @@
  - name: footnote
    type: package
    status: unknown
+   tasks: needs tests
    comments: To be supported or not?
 
  - name: geometry
@@ -109,6 +111,7 @@
    type: package
    status: unknown
    comments: An old issue appears to be fixed.
+   tasks: needs tests
    issues: [48]
 
  - name: graphicx
@@ -128,6 +131,7 @@
  - name: hhline
    type: package
    status: unknown
+   tasks: needs tests
    issues: [66]
 
  - name: hyperref
@@ -139,6 +143,7 @@
    type: package
    status: unknown
    comments: Main issue seems to be fixed but comments indicate that this is a troublesome package.
+   tasks: needs tests
    issues: [86]
 
  - name: listings
@@ -164,11 +169,13 @@
  - name: manyfoot
    type: package
    status: unknown
+   tasks: needs tests
    comments: To be supported or not?
 
  - name: mathtools
    type: package
    status: unknown
+   tasks: needs tests
 
  - name: mdframed
    type: package
