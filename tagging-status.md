@@ -6,9 +6,6 @@ td.supported {background-color: #DDFFDD;font-weight:bold;}
 </style>
 <script src="sorttable.js"></script>
 
-{% assign classes = site.data.tagging-status | where: "type", "class" %}
-{% assign pkgs    = site.data.tagging-status | where: "type", "pkg" %}
-
 
 
 ## Packages
@@ -28,6 +25,8 @@ Click on the column headings to sort the table by the chosen column.
 </tr>
 </thead>
 <tbody>
+
+{%- assign classes = site.data.tagging-status | where: "type", "class" -%}
 
 {%- for p in pkgs -%}
 <tr>
@@ -73,6 +72,7 @@ Click on the column headings to sort the table by the chosen column.
 </thead>
 <tbody>
 
+{%- assign pkgs = site.data.tagging-status | where: "type", "pkg" -%}
 
 {%- for p in classes -%} 
 <tr>
