@@ -13,12 +13,13 @@ td.no-support {background-color: #FFDDDD;font-weight:bold;}
 This file shows the status of LaTeX [Packages](#packages) and [Classes](#classes)
 with respect to PDF tagging.
 
-The values in the *Status* column have the following meaning
-- `supported`: This package or class works without any issues when tagging is enabled. If there are problems, please open an issue in [the tagging-project repo](https://github.com/latex3/tagging-project/issues).
-- `partial-support`: The package or class is partially supported, but some parts may not work. See comments for details.
-- `currently-incompatible`: The package or class is currently incompatible with the tagging code, but we expect it to be updated eventually. 
-- `no-support`: This package or class or class is incompatible with the tagging code and we do *not* believe that it will ever be supported.
-- `unknown`: The status of this package or class is not known, because there aren't reliable tests yet. Help with testing to determine the real status is very much appreciated.
+The values in the *Status* column have the following meaning:
+
+- `supported` This package or class works without any issues when tagging is enabled. If there are problems, please open an issue in [the tagging-project repo](https://github.com/latex3/tagging-project/issues).
+- `partial-support` The package or class is partially supported, but some parts may not work. See comments for details.
+- `currently-incompatible` The package or class is currently incompatible with the tagging code, but we expect it to be updated eventually. 
+- `no-support` This package or class or class is incompatible with the tagging code and we do *not* believe that it will ever be supported.
+- `unknown` The status of this package or class is not known, because there aren't reliable tests yet. Help with testing to determine the real status is very much appreciated.
 
 
 To add or edit the entries, please make a pull request to change the YAML file
