@@ -30,7 +30,7 @@ Click on the column headings to sort the table by the chosen column.
 {% endfor %}
 {%- endif -%}
 {% if p.related-issues %}
-<br/>
+{%- if p.issues -%}<br/>{%- endif -%}
 See also
 {% for i in p.related-issues %}
 <a href="https://github.com/latex3/tagging-project/issues/{{i}}">#{{i}}</a>
