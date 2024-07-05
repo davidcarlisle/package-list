@@ -26,9 +26,9 @@ Click on the column headings to sort the table by the chosen column.
 </thead>
 <tbody>
 
-{%- assign pkgs = site.data.tagging-status | where: "type", "pkg" -%}
+{%- assign packages = site.data.tagging-status | where: "type", "pkg" -%}
 
-{%- for p in pkgs -%}
+{%- for p in packages -%}
 <tr>
 <!-- <td>{{p.type}}</td> -->
 <td class="{{p.status}}"><a href="https://ctan.org/pkg/{{p.name}}">{{p.name}}</a></td>
