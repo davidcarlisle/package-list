@@ -186,6 +186,7 @@
    type: pkg
    status: supported
    comments: Supported if hyperref is used.
+   tasks: verify statement
 
  - name: subcaption
    type: pkg

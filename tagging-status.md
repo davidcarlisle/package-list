@@ -18,6 +18,7 @@ Click on the column headings to sort the table by the chosen column.
 <th>Status</th>
 <th>Comments</th>
 <th>Relevant issue</th>
+<th>Team tasks</th>
 <th>Last updated</th>
 </tr>
 </thead>
@@ -34,13 +35,14 @@ Click on the column headings to sort the table by the chosen column.
 <a href="https://github.com/latex3/tagging-project/issues/{{p.issue}}">#{{p.issue}}</a>
 {%- endif -%}
 {% if p.related-issues %}
-<!-- <br/> -->
+<br/>
 See also
 {% for u in p.related-issues %}
 <a href="https://github.com/latex3/tagging-project/issues/{{u}}">#{{u}}</a>
 {% endfor %}
 {% endif %}
 </td>
+<td>{{p.tasks}}</td>
 <td>{{p.updated}}</td>
 </tr>
 {%- endfor -%}
