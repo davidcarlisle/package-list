@@ -4,7 +4,7 @@ title: LaTeX package/class tagging status
 <style>
 td.supported {background-color: #DDFFDD;font-weight:bold;}
 td.partial-support {background-color: #FFFFDD;font-weight:bold;}
-td.unsupported {background-color: #FFDDDD;font-weight:bold;}
+td.no-support {background-color: #FFDDDD;font-weight:bold;}
 </style>
 <script src="sorttable.js"></script>
 
@@ -19,7 +19,7 @@ To add or edit the entries, please make a pull request to change the YAML file
 
 ## Packages
 
-{%- assign packages = site.data.tagging-status | where: "type", "pkg" -%}
+{%- assign packages = site.data.tagging-status | where: "type", "package" -%}
 {% include_relative status-section.md %}
 
 
