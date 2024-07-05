@@ -24,7 +24,7 @@ Click on the column headings to sort the table by the chosen column.
 <td class="{{p.status}}">{{p.status}}</td>
 <td>{{p.comments | markdownify}}</td>
 <td>
-{%- if p.issue -%}
+{%- if p.issues -%}
 {% for i in p.issues %}
 <a href="https://github.com/latex3/tagging-project/issues/{{i}}">#{{i}}</a>
 {% endfor %}
