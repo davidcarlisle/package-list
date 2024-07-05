@@ -7,16 +7,16 @@ td.unsupported {background-color: #D73A4A;font-weight:bold;}
 </style>
 <script src="sorttable.js"></script>
 
-{% include_relative status-section.md
-  title="Packages"
-  type="pkg"
-%}
+## Packages
+
+{%- assign packages = site.data.tagging-status | where: "type", "pkg" -%}
+{% include_relative status-section.md %}
 
 
-{% include_relative status-section.md
-  title="Classes"
-  type="class"
-%}
+## Classes
+
+{%- assign packages = site.data.tagging-status | where: "type", "class" -%}
+{% include_relative status-section.md %}
 
 
 ----
