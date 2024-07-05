@@ -75,7 +75,7 @@
    status: currently-unsupported
    comments: "See comments in [[1]](#ref1). Also mentioned here:"
    issue: 61
-   related-issues: 4
+   related-issues: [4]
 
  - name: fancyvrb
    type: pkg
