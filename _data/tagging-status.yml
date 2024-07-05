@@ -6,25 +6,25 @@
      See comments in [[1]](#ref1), [[2]](#ref2), but what does ‘much of’ mean here? See also: <https://github.com/latex3/tagging-project/issues/77>
      Mentioned here, but it seems the issue was fixed:"
 
-   issue: 28
+   issues: [28]
 
  - name: amsthm
    type: pkg
    status: currently-unsupported
-   issue: 83
+   issues: [83]
    updated: 2024-07-04
 
  - name: biblatex
    type: pkg
    status: supported
    comments: Supported according to [[2]](#ref2) An old issue appears to be fixed.
-   issue: 18
+   issues: [18]
 
  - name: biblatex-chicago
    type: pkg
    status: supported
    comments: An earlier issue appears to have been fixed.
-   issue: 62
+   issues: [62]
 
  - name: bigfoot
    type: pkg
@@ -35,35 +35,35 @@
  - name: booktabs
    type: pkg
    status: currently-unsupported
-   issue: 69
+   issues: [69]
 
  - name: caption
    type: pkg
    status: currently-unsupported
    comments: Issue when hyperref and both listoffigures are used.
-   issue: 84
+   issues: [84]
 
  - name: cleveref
    type: pkg
    status: currently-unsupported
-   issue: 2
+   issues: [2]
 
  - name: colortbl
    type: pkg
    status: supported
    comments: errors in combination with longtable
-   issue: 90
+   issues: [90]
 
  - name: csquotes
    type: pkg
    status: currently-unsupported
    comments: Main issue seems to be with blockquote.
-   issue: 3
+   issues: [3]
 
  - name: doc
    type: pkg
    status: currently-unsupported
-   issue: 44
+   issues: [44]
 
  - name: enumerate
    type: pkg
@@ -74,7 +74,7 @@
    type: pkg
    status: currently-unsupported
    comments: "See comments in [[1]](#ref1). Also mentioned here:"
-   issue: 61
+   issues: [61]
    related-issues: [4]
 
  - name: fancyvrb
@@ -91,7 +91,7 @@
    type: pkg
    status: supported
    comments: An old issue has been fixed.
-   issue: 12
+   issues: [12]
 
  - name: footnote
    type: pkg
@@ -107,7 +107,7 @@
    type: pkg
    status: unknown
    comments: An old issue appears to be fixed.
-   issue: 48
+   issues: [48]
 
  - name: graphicx
    type: pkg
@@ -120,13 +120,13 @@
      The alternative text will be ignored if tagging is not used. See comments in [[1]](#ref1). It seems that draft mode doesn’t work at present.
      An old issue with height appears to be fixed.
 
-   issue: 16
+   issues: [16]
    related-issues: [64]
 
  - name: hhline
    type: pkg
    status: unknown
-   issue: 66
+   issues: [66]
 
  - name: hyperref
    type: pkg
@@ -137,19 +137,19 @@
    type: pkg
    status: unknown
    comments: Main issue seems to be fixed but comments indicate that this is a troublesome package.
-   issue: 86
+   issues: [86]
 
  - name: listings
    type: pkg
    status: currently-unsupported
    comments: See [[1]](#ref1) and also
-   issue: 70
+   issues: [70]
    related-issues: [41]
 
  - name: longtable
    type: pkg
    status: partial-support
-   issue: 22
+   issues: [22]
    comments: longtables with page breaks works only with luatex
    related-issues: [38]
 
@@ -157,7 +157,7 @@
    type: pkg
    status: supported
    comments: An old issue has been fixed.
-   issue: 8
+   issues: [8]
 
  - name: manyfoot
    type: pkg
@@ -172,13 +172,13 @@
    type: pkg
    status: unsupported
    comments: "Recommended alternative: tcolorbox."
-   issue: 73
+   issues: [73]
 
  - name: microtype
    type: pkg
    status: supported
    comments: Footnote patching doesn’t work but otherwise supported.
-   issue: 67
+   issues: [67]
 
  - name: natbib
    type: pkg
@@ -190,24 +190,24 @@
    type: pkg
    status: currently-unsupported
    comments:  Issue when hyperref and both listoffigures are used.
-   issue: 85
+   issues: [85]
 
  - name: tabularx
    type: pkg
    status: supported
    comments: An old issue has been fixed.
-   issue: 42
+   issues: [42]
 
  - name: tocloft
    type: pkg
    status: currently-unsupported
-   issue: 74
+   issues: [74]
 
  - name: tcolorbox
    type: pkg
    status: currently-unsupported
    comments: "Not yet fully supported, but some suggestions here:"
-   issue: 73
+   issues: [73]
 
  - name: tikz
    type: pkg
@@ -217,40 +217,40 @@
  - name: tikz-cd
    type: pkg
    status: currently-unsupported
-   issue: 30
+   issues: [30]
 
  - name: titlesec
    type: pkg
    status: currently-unsupported
-   issue: 24
+   issues: [24]
 
  - name: titletoc
    type: pkg
    status: currently-unsupported
    comments: Mentioned here.
-   issue: 24
+   issues: [24]
 
  - name: url
    type: pkg
    status: supported
    comments: An old issue has been fixed.
-   issue: 5
+   issues: [5]
 
  - name: varwidth
    type: pkg
    status: currently-unsupported
-   issue: 71
+   issues: [71]
 
  - name: verse
    type: pkg
    status: supported
    comments: firstaid is required for the fix of issue 49
-   issue: 49
+   issues: [49]
 
  - name: wrapfig
    type: pkg
    status: currently-unsupported
-   issue: 40
+   issues: [40]
    
 
  - name: article

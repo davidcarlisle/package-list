@@ -1,7 +1,7 @@
 
 Click on the column headings to sort the table by the chosen column.
 
-<table class="sortable" style="display:table;width:100%">
+<table class="sortable" style="display:table   ;width:100%">
 <thead>
 <tr>
 <!-- <th>Type</th>  -->
@@ -25,13 +25,15 @@ Click on the column headings to sort the table by the chosen column.
 <td>{{p.comments | markdownify}}</td>
 <td>
 {%- if p.issue -%}
-<a href="https://github.com/latex3/tagging-project/issues/{{p.issue}}">#{{p.issue}}</a>
+{% for i in p.issues %}
+<a href="https://github.com/latex3/tagging-project/issues/{{i}}">#{{i}}</a>
+{% endfor %}
 {%- endif -%}
 {% if p.related-issues %}
 <br/>
 See also
-{% for u in p.related-issues %}
-<a href="https://github.com/latex3/tagging-project/issues/{{u}}">#{{u}}</a>
+{% for i in p.related-issues %}
+<a href="https://github.com/latex3/tagging-project/issues/{{i}}">#{{i}}</a>
 {% endfor %}
 {% endif %}
 </td>
