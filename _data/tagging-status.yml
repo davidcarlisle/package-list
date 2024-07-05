@@ -67,8 +67,10 @@
 
  - name: enumerate
    type: package
-   status: currently-incompatible
-   comments: See comments in [[1]](#ref1).
+   status: partial-support
+   comments: See comments in [[1]](#ref1). The package itself can't be loaded right now. However, the tagging code supports (most of) the document-level  syntax of `enumitem`, so that one cae use, for example, `\begin{itemize}[...]` out of the box.
+   tasks = Check which keys are not yet supported and what else is missing. 
+   updated: 2024-07-05
 
  - name: enumitem
    type: package
@@ -273,9 +275,11 @@
    type: class
    status: currently-incompatible
    related-issues: [88]
+   updated: 2024-07-05
 
  - name: memoir
    type: class
    status: currently-incompatible
    comments: "Some code showing the needed adjustments can be found in the 
               [bible example](https://github.com/latex3/tagging-project/blob/main/project-examples/ASV/bible.tex)"
+   updated: 2024-07-05
