@@ -1,7 +1,3 @@
-## {{title}}
-
-
-<h2>{{title}}</h2>
 
 Click on the column headings to sort the table by the chosen column.
 
@@ -19,7 +15,7 @@ Click on the column headings to sort the table by the chosen column.
 </thead>
 <tbody>
 
-{%- assign packages = site.data.tagging-status | where: "type", type -%}
+
 
 {%- for p in packages -%}
 <tr>
