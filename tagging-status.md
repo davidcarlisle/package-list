@@ -58,8 +58,6 @@ See also
 
 Click on the column headings to sort the table by the chosen column.
 
-{%- assign classes = site.data.tagging-status | where: "type", "class" -%}
-
 <table class="sortable" style="width:100%">
 <thead>
 <tr>
@@ -73,6 +71,8 @@ Click on the column headings to sort the table by the chosen column.
 </tr>
 </thead>
 <tbody>
+
+{%- assign classes = site.data.tagging-status | where: "type", "class" -%}
 
 {%- for p in classes -%} 
 <tr>
