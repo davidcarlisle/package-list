@@ -1,5 +1,6 @@
 
- - package: amsmath
+ - name: amsmath
+   type: pkg
    status: unknown
    comments: >
      See comments in [[1]](#ref1), [[2]](#ref2), but what does ‘much of’ mean here? See also: <https://github.com/latex3/tagging-project/issues/77>
@@ -7,88 +8,108 @@
 
    issue: 28
 
- - package: amsthm
+ - name: amsthm
+   type: pkg
    status: currently-unsupported
    issue: 83
+   updated: 2024-07-04
 
- - package: biblatex
+ - name: biblatex
+   type: pkg
    status: supported
    comments: Supported according to [[2]](#ref2) An old issue appears to be fixed.
    issue: 18
 
- - package: biblatex-chicago
+ - name: biblatex-chicago
+   type: pkg
    status: supported
    comments: An earlier issue appears to have been fixed.
    issue: 62
 
- - package: bigfoot
+ - name: bigfoot
+   type: pkg
    status: unknown
    comments: To be supported or not? Can’t remember where I saw this mentioned!
+   updated: 2024-07-04
 
- - package: booktabs
+ - name: booktabs
+   type: pkg
    status: currently-unsupported
    issue: 69
 
- - package: caption
+ - name: caption
+   type: pkg
    status: currently-unsupported
    comments: Issue when hyperref and both listoffigures are used.
    issue: 84
 
- - package: cleveref
+ - name: cleveref
+   type: pkg
    status: currently-unsupported
    issue: 2
 
- - package: colortbl
+ - name: colortbl
+   type: pkg
    status: currently-unsupported
    comments: Looks like the package author may have updated the code.
    issue: 80
 
- - package: csquotes
+ - name: csquotes
+   type: pkg
    status: currently-unsupported
    comments: Main issue seems to be with blockquote.
    issue: 3
 
- - package: doc
+ - name: doc
+   type: pkg
    status: currently-unsupported
    issue: 44
 
- - package: enumerate
+ - name: enumerate
+   type: pkg
    status: currently-unsupported
    comments: See comments in [[1]](#ref1).
 
- - package: enumitem
+ - name: enumitem
+   type: pkg
    status: currently-unsupported
    comments: "See comments in [[1]](#ref1). Also mentioned here:"
-   related-issues:
-   - 4
    issue: 61
+   related-issues: [4]
 
- - package: fancyvrb
+ - name: fancyvrb
+   type: pkg
    status: currently-unsupported
    comments: See comments in [[1]](#ref1).
 
- - package: float
+ - name: float
+   type: pkg
    status: currently-unsupported
    comments: "[H] floats are not yet automatically tagged. See comments in [[2]](#ref2)."
 
- - package: footmisc
+ - name: footmisc
+   type: pkg
    status: supported
    comments: An old issue has been fixed.
    issue: 12
 
- - package: footnote
+ - name: footnote
+   type: pkg
    status: unknown
    comments: To be supported or not?
 
- - package: geometry
+ - name: geometry
+   type: pkg
    status: unknown
 
- - package: glossaries
+ - name: glossaries
+   type: pkg
    status: supported
    comments: An old issue appears to be fixed.
    issue: 48
 
- - package: graphicx
+ - name: graphicx
+   type: pkg
    status: supported
    comments: >
      Rather than
@@ -98,114 +119,152 @@
      The alternative text will be ignored if tagging is not used. See comments in [[1]](#ref1). It seems that draft mode doesn’t work at present.
      An old issue with height appears to be fixed.
 
-   related-issues:
-   - 64
    issue: 16
+   related-issues: [64]
 
- - package: hhline
+ - name: hhline
+   type: pkg
    status: unknown
    issue: 66
 
- - package: hyperref
+ - name: hyperref
+   type: pkg
    status: supported
    comments: See comments in [[2]](#ref2).
 
- - package: includepdf
+ - name: includepdf
+   type: pkg
    status: unknown
    comments: Main issue seems to be fixed but comments indicate that this is a troublesome package.
    issue: 86
 
- - package: listings
+ - name: listings
+   type: pkg
    status: currently-unsupported
    comments: See [[1]](#ref1) and also
-   related-issues:
-   - 41
    issue: 70.
+   related-issues: [41]
 
- - package: longtable
+ - name: longtable
+   type: pkg
    status: unknown
    issue: 22
    comments: Also mentioned here but the issue has been fixed.
-   related-issues:
-   - 38
+   related-issues: [38]
 
- - package: luamplib
+ - name: luamplib
+   type: pkg
    status: supported
    comments: An old issue has been fixed.
    issue: 8
 
- - package: manyfoot
+ - name: manyfoot
+   type: pkg
    status: unknown
    comments: To be supported or not?
 
- - package: mathtools
+ - name: mathtools
+   type: pkg
    status: unknown
 
- - package: mdframed
+ - name: mdframed
+   type: pkg
    status: unsupported
    comments: "Recommended alternative: tcolorbox."
    issue: 73
 
- - package: microtype
+ - name: microtype
+   type: pkg
    status: supported
    comments: Footnote patching doesn’t work but otherwise supported.
    issue: 67
 
- - package: natbib
+ - name: natbib
+   type: pkg
    status: supported
    comments: Supported if hyperref is used.
+   tasks: verify statement
 
- - package: subcaption
+ - name: subcaption
+   type: pkg
    status: currently-unsupported
    comments:  Issue when hyperref and both listoffigures are used.
    issue: 85
 
- - package: tabularx
+ - name: tabularx
+   type: pkg
    status: supported
    comments: An old issue has been fixed.
    issue: 42
 
- - package: tocloft
+ - name: tocloft
+   type: pkg
    status: currently-unsupported
    issue: 74
 
- - package: tcolorbox
+ - name: tcolorbox
+   type: pkg
    status: currently-unsupported
    comments: "Not yet fully supported, but some suggestions here:"
    issue: 73
 
- - package: tikz
+ - name: tikz
+   type: pkg
    status: currently-unsupported
    comments: See comments in [[2]](#ref2).
 
- - package: tikz-cd
+ - name: tikz-cd
+   type: pkg
    status: currently-unsupported
    issue: 30
 
- - package: titlesec
+ - name: titlesec
+   type: pkg
    status: currently-unsupported
    issue: 24
 
- - package: titletoc
+ - name: titletoc
+   type: pkg
    status: currently-unsupported
    comments: Mentioned here.
    issue: 24
 
- - package: url
+ - name: url
+   type: pkg
    status: supported
    comments: An old issue has been fixed.
    issue: 5
 
- - package: varwidth
+ - name: varwidth
+   type: pkg
    status: currently-unsupported
    issue: 71
 
- - package: verse
+ - name: verse
+   type: pkg
    status: supported
    comments: An old issue appears to have been fixed.
    issue: 49
 
- - package: wrapfig
+ - name: wrapfig
+   type: pkg
    status: currently-unsupported
    issue: 40
    
+
+ - name: article
+   type: class
+   status: supported
+   updated: 2024-07-05
+
+
+ - name: report
+   type: class
+   status: supported
+   updated: 2024-07-05
+
+ - name: book
+   type: class
+   status: supported
+   updated: 2024-07-05
+
