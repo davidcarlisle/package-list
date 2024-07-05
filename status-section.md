@@ -1,5 +1,7 @@
-
 ## {{title}}
+
+
+<h2>{{title}}</h2>
 
 Click on the column headings to sort the table by the chosen column.
 
